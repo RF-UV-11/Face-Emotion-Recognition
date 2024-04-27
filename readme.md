@@ -27,6 +27,7 @@ Facial expression recognition is a technology that allows a computer to recogniz
    ```
 
 2. **Activate Virtual Environment (Optional):**
+   - unzip nenv.zip
 
    ```bash
    /nenv/Scripts/activate.bat  # Activate virtual environment for Windows
@@ -35,17 +36,17 @@ Facial expression recognition is a technology that allows a computer to recogniz
    source nenv/bin/active # Activate virtual environment Linux
    ```
 
-3. **Install Dependencies:**
+4. **Install Dependencies:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Train the Model (Optional):**
+5. **Train the Model (Optional):**
 
    - Open and run the `face_emotion_recognition.ipynb` Jupyter Notebook to train and save the model (`my_model.h5`) for face emotion recognition.
 
-5. **Run the Face Emotion Recognition Script:**
+6. **Run the Face Emotion Recognition Script:**
 
    - Ensure that the pre-trained model (`my_model.h5`) is in the project directory.
    - Execute the following command to start real-time emotion recognition using the webcam:
